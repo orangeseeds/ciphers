@@ -1,0 +1,358 @@
+﻿Kathmandu University
+Department of Computer Science and Engineering
+Dhulikhel, Kavre
+  
+
+A Project Proposal
+on
+“ChalKhel”
+[Code No: Comp 206]
+(For partial fulfillment of II Year/I Semester in Computer Engineering)
+Submitted by
+Avishek K.C. (21)
+Pujan Jangam (19)
+Shubhechchhak Pokhrel (43)
+Nirav Sapkota (48)
+Sankalpa Satyal (49)
+
+
+Submitted to:
+Nabin Ghimire
+Department of Computer Science and Engineering
+Submission Date: 24th March 2021 
+
+
+Abstract
+
+
+We have decided to make a web application that provides users with various information regarding sports news and even live updates from various sources of the sports of their choice, to encourage users to write posts regarding different events in the sports world, we will also be including a blogging feature in our website. We wanted to give a platform for users to form sub-communities within the overall sports community. Our project uses Django, a python web-development framework as a back-end tool and HTML, CSS, JavaScript as front-end tools to build upon this idea. Our main goal was to provide the users with a multi-purpose platform that got them more enthusiastic about sports and make people more involved in sports and sports-related communities. This web-application of ours will be available in any system that supports a web browser.
+
+
+Keywords: Information, Sports, Website, Community, Django, Javascript 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table of Contents
+                                                                                Page no.
+Chapter 1: Introduction
+1.1 Background………………………………………………………………    5
+1.2 Objective…………………………………………………………………    6
+1.3 Motivation and Significance……………………………………………..    6
+
+
+
+
+Chapter 2: Related Works
+2.1 ESPN……………………………………………………………………...    7
+2.2 SkySports…………………………………………………………...........     8
+2.3 Sportskeeda………………………………………………………………..   9
+
+
+Chapter 3: Procedures and Methods 
+3.1 Procedure…………………………………………………………………   11
+3.2 Flowchart…………………………………………………………………   12
+
+
+Chapter 4: System Requirement Specification
+4.1 Software Specification……………………………………………………   13
+    4.1.1. Front End Tools……………………………………………………..    13
+    4.1.2. Back End Tools……………………………………………………..    13
+4.2 Hardware Requirements………………………………………………….    13
+
+
+Chapter 5: Project Planning and Scheduling
+5.1 Gantt Chart ……………………………………………………………….   14
+APPENDIX…………………………………………………………………...   15
+List of Figure
+
+
+                                    Figure Page no.
+3.2 Flowchart………………………………………………………………..     12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+List of Table
+
+
+                               Table Page no.
+4.2 Gantt Chart ………………………………………………………….    14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter 1: Introduction
+ 
+1.1. Background
+After such a long lockdown due to pandemic people want to be outside, play their favorite sports, and be involved in different communities. May it be by being there physically or through their digital presence. People are longing to go run for their favorite sport.
+In Nepal, different sports events are held very frequently but very few people find out about these events. The interaction in the local communities is very lacking. There is a huge prospect in Nepal regarding sports but the medium of communication is not very robust. So all these events go unnoticed by people. When we have to get updates on different match statistics and sports news we get confused about what to look for or where to look. For different sports, there are different websites and scouring all these websites seems like a chore.  So, we wanted to make a platform where users can get updates on matches of different sports and even some sports news in one place.
+Although the idea of building a website that provides sports-related information isn’t new at all. But in the context of our own country, the websites aren’t engaging. This is because all these websites have old interfaces. We have visited many websites to check about sports but we find that the local websites aren’t as enjoyable to use as some international platforms. So, intending to dethrone the past practices of using international platforms, we are making a simple yet enjoyable website that will please the sports enthusiasts.
+ 
+ 
+
+
+
+
+1.2. Objectives
+-       To provide a platform for sports enthusiasts.
+-       To provide sports related information
+-       To promote the interaction in the sports community.
+-       To promote sports related events.
+
+
+
+
+1.3. Motivation and Significance
+Many people like following sports-related events and activities. It is one of the topics of discussion among the youths. People follow the information regarding their favorite teams using various platforms. There are many such international platforms but there are only a few local platforms. The local platforms are very bland and people are attracted to the international platforms. So, the first and foremost advantage of this website is to promote the local community. The website will also focus on increasing the involvement in sports. Locally organized events are rarely noticed in Nepal which this website aims to promote. Sports updates can be checked through this website and interaction among the community is also encouraged. This website would fancy the sports enthusiasts a quality experience browsing the site. 
+
+
+
+
+
+
+
+
+
+
+Chapter 2: Related Works/ Existing Works
+As we searched for other websites that had a similar goal to ours, we came across a handful of them but even among those websites, these two projects struck out to us which also gave us some inspiration for our own project. 
+
+
+2.1 ESPN
+www.espn.com is an American multinational website owned by ESPN Inc. ESPN gives up-to-the-minute sports news coverage, scores, highlights, and commentary for different kinds of sports such as football, basketball, baseball, cricket, MMA, F1 racing, and more. ESPN says that their mission is ‘To Serve Sports Fans. Anytime. Anywhere.’ ESPN, Inc. is the leading multinational, multimedia sports entertainment brand featuring the broadest portfolio of multimedia sports assets.
+
+
+  
+
+
+
+
+
+Some key features of this website are,
+* It allows users to follow scores, news, and highlights everywhere they go.
+* It provides live alerts, highlights, news, and more for every game in every sport.
+* It also allows users to add favorite teams to personalize their own ESPN.com.
+
+
+2.2 SkySports
+Sky Sports is a group of British subscription television sports channels operated by the satellite pay-TV company Sky, a division of Comcast. Sky Sports is the dominant subscription television sports brand in the United Kingdom and Ireland. It has played a major role in the increased commercialization of British sport since 1991. SkySports provides the live coverage of our favorite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores. (website : www.skysports.com)
+
+
+  
+
+
+
+Some key features of this website are,
+* It provides live coverage of every sports match.
+* It gives highlights, stories, major event clips of different matchups.
+* It provides news about different incidents in the sports field and gives information on future matchups as well.
+
+
+2.3 Sportskeeda
+Sportskeeda is an Indian sports and esports news website that was founded in 2009. The majority stake in the website was acquired by the gaming firm Nazara Technologies in 2019 at a valuation of $10M. The website has news, features, commentary, and videos on sports like football, cricket, hockey, tennis, basketball, kabaddi, etc, and also on esports like PUBG Mobile, Valorant, CS:GO, and League of Legends. Its operations are managed by the incorporated organization Absolute Sports Private Limited. Sportskeeda’s content is procured from a variety of sources; the site accepts and publishes articles contributed by its community of writers. Sportskeeda claims to publish around 150 articles every day. The website also has an Android app, which has over 500,000 downloads. 
+(Website: www.sportskeeda.com)
+  
+
+
+
+Some key features of this website are,
+* Sportskeeda offers news and views on different sports with freelance writers, bloggers, and sports enthusiasts largely generating its content.
+* Not only sports but it provides news and updates of different esports such as PUBG, valorant too.
+* The platform provides sports entertainment and a mix of news, real-time updates, features, videos, and humor.
+
+
+
+
+
+
+
+
+
+
+Chapter 3: Procedure and Methods
+
+
+3.1 Procedure
+Ideas amongst the members can be conflicting, but agreeing on a common problem and working towards a common solution can help and then the whole project can be completed sooner.  It is essential, as coding and development can become meaningless if not built upon a good foundation. Next up is designing, which is basically building a structure of the project. Digging up the issues in the current solution and trying to mitigate those issues. The next process is work division, dividing the work among your team is an important step. Distributing the load of the work is not only better for the team but also for the project itself. Work will be divided among each member of the team fairly and everybody will have their contribution to the project, which will prevent stress or burnout for the members. Finally, after all the tasks mentioned above are completed true development and coding starts from this stage. Coding is the heart of this whole project, as a team, we will start the development with some analysis regarding the code going on in the background.
+We will be building a web-application with the help of “Django” a web development framework made in python, as a backend tool for our development. We will also be using user authentication in our application. We plan on tackling the design aspect of our project first and foremost. Firstly, we plan on finishing our prototype and then add additional features according to the need to make the project more robust. Once completed we intend to test the application of any bugs by subjecting it to real-world scenarios. After all these procedures are completed successfully our project will be ready for use.
+
+
+
+
+
+
+3.2 Flowchart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter 4: System Requirement Specification
+
+
+4.1. Software Specification
+
+
+4.1.1. Front End Tools:                  
+Javascript, HTML, CSS
+
+
+
+
+4.1.2. Back End Tools:                            
+Django, MYSQL
+
+
+
+
+4. 2. Hardware Specification         
+Any device that can run a web browser should be able to access our web-application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter 5. Project Planning and Scheduling
+The time allocated for our project is 13 weeks. We have divided the workflow and scheduled it in order to make our work effective. The work division and time allocated for our project are shown in the Gantt chart below. The initial phase of the project includes planning, preparation, and work division which we will complete in the first two weeks. We have dedicated 9 weeks for coding which is the core part of the development. After the coding part is done, we have allocated two weeks for debugging and testing the program. The last two weeks will be utilized for documentation.
+
+
+5.1 Gantt Chart
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+APPENDIX
+
+
+Reference
+ScoresPro (n.d.). ScoresPro  https://www.scorespro.com/
+nbcsports (n.d.). nbcsports https://www.nbcsports.com/
+Django documentation (n.d.) django https://docs.djangoproject.com/en/3.1/
+ESPN (n.d.) ESPN https://www.espn.com/
